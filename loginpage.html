@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <style>
+            body{
+                background-image: url("./loginimage.jpg");
+                background-size: cover;
+             }
+             .login {
+            
+background-color: rgb(77, 66, 53);               width: 350px;
+               left:40%;
+               top:30%;
+               position: absolute;
+               color: #fff;
+            }
+           .login h1{
+            font-size: 40px;
+            text-align: center;
+            margin: 40px 0;
+            }
+            .login label{
+                font-size: 20px;
+                margin: 15px 0;
+                
+            } 
+            .login input{
+                font-size: 16px;
+                width: 300px;
+                padding: 15px 10px;
+                border: o;
+                outline: none;
+                border-radius: 5px;
+            }
+            .login button{
+                font-size: 18px;
+                font-weight: bold;
+                margin: 20px 0;
+                width: 30%;
+                border-radius: 5px;
+                border: 0;
+
+            }
+
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="login">
+            <h1>Login Form</h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Username:</label></td>
+                </tr>
+                <tr>
+                     <td><input type="text" placeholder="Enter Username" name="username" required></td>
+                 </tr>
+                 <tr>
+                    <td><label>Password:</label></td>
+               </tr>
+               <tr>
+                     <td><input type="Password" placeholder="Enter Password" name="password" required></td>
+              </tr>
+              <tr>
+                     <td><button type="submit" value="submit">Submit</button>
+                      
+                     <button type="reset" value="reset">reset</button></td>
+            </tr>
+           </table>
+         </form>
+    </div>
+    </body>
+</html>
